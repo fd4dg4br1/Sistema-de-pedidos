@@ -1,0 +1,28 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>HELP.md\ntarget/\n.mvn/wrapper/maven-wrapper.jar\n!**/src/main/**/target/\n!**/src/test/**/target/\n\n### STS ###\n.apt_generated\n.classpath\n.factorypath\n.project\n.settings\n.springBeans\n.sts4-cache\n\n### IntelliJ IDEA ###\n.idea\n*.iws\n*.iml\n*.ipr\n\n### NetBeans ###\n/nbproject/private/\n/nbbuild/\n/dist/\n/nbdist/\n/.nb-gradle/\nbuild/\n!**/src/main/**/build/\n!**/src/test/**/build/\n\n### VS Code ###\n.vscode/
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision 5764036da0585bdd0cbe724ac4f9922013664e30)
++++ b/.gitignore	(date 1774392729274)
+@@ -30,4 +30,4 @@
+ !**/src/test/**/build/
+ 
+ ### VS Code ###
+-.vscode/
+\ No newline at end of file
++.vscode/
+Index: .gitattributes
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/mvnw text eol=lf\n*.cmd text eol=crlf
+===================================================================
+diff --git a/.gitattributes b/.gitattributes
+--- a/.gitattributes	(revision 5764036da0585bdd0cbe724ac4f9922013664e30)
++++ b/.gitattributes	(date 1774392729344)
+@@ -1,2 +1,2 @@
+ /mvnw text eol=lf
+-*.cmd text eol=crlf
+\ No newline at end of file
++*.cmd text eol=crlf
