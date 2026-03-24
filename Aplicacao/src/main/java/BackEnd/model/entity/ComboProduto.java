@@ -20,4 +20,10 @@ public class ComboProduto {
 
     @Column(nullable = false)
     private float preco_combo;
+
+    @ManyToOne
+    private Combo combo;
+
+    @ManyToOne
+    private Produto produto;
 }

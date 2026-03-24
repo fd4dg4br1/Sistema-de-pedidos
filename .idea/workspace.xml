@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a502cf2-5155-4367-b30d-70e114fb53df" name="Changes" comment="" />
+    <list default="true" id="5a502cf2-5155-4367-b30d-70e114fb53df" name="Changes" comment="Database Finalizado!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="fd4dg4br1 &lt;positivoclashgamer@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Guilhene&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/fd4dg4br1/Sistema-de-pedidos.git&quot;,
+    &quot;accountId&quot;: &quot;5f40335d-0fed-442c-b2b1-56e7ff290de7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3BB4fhk9Jg60ApGDep7rUYZWJ85" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,11 +43,16 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Guilherme",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/guilherme/Documentos/projetos/Sistema_pedido",
+    "last_opened_file_path": "/home/guilherme/Documentos/Aplicação/Sistema-de-pedidos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -48,10 +73,50 @@
       <option name="presentableId" value="Default" />
       <updated>1773949236680</updated>
       <workItem from="1773949237939" duration="287000" />
+      <workItem from="1774380010486" duration="1308000" />
+      <workItem from="1774384878139" duration="393000" />
     </task>
+    <task id="LOCAL-00001" summary="Adição para branch master">
+      <option name="closed" value="true" />
+      <created>1774380030684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774380030684</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Database Finalizado!">
+      <option name="closed" value="true" />
+      <created>1774384913852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774384913852</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Database Finalizado!">
+      <option name="closed" value="true" />
+      <created>1774384953157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774384953157</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Database Finalizado!">
+      <option name="closed" value="true" />
+      <created>1774385260575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774385260575</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adição para branch master" />
+    <MESSAGE value="Database Finalizado!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database Finalizado!" />
   </component>
 </project>

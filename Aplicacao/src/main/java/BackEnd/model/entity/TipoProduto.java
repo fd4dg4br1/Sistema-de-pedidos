@@ -18,4 +18,7 @@ public class TipoProduto {
 
     @Column(nullable = false)
     private String descricao;
+
+    @OneToOne
+    private Produto produto;
 }

@@ -5,6 +5,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -24,4 +25,11 @@ public class Pedido {
     @ManyToOne
     @JoinColumn(name = "id_cliente")
     private Cliente cliente;
+
+    @OneToMany(mappedBy = "pedido")
+    @JoinColumn(name = "pedido")
+    private List<PedidoProduto> pedidoProduto;
+
+    @ManyToOne
+    private Pagamento pagamento;
 }

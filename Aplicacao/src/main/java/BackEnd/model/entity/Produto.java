@@ -5,6 +5,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -26,4 +27,15 @@ public class Produto {
 
     @Column(nullable = false)
     private String descricao;
+
+    @OneToMany(mappedBy = "pedidis_produtos")
+    @JoinColumn(name = "produto")
+    private List<PedidoProduto> pedidosProduto;
+
+    @OneToMany(mappedBy = "tb_comboProduto")
+    @JoinColumn(name = "produto")
+    private List<ComboProduto> comboProduto;
+
+    @OneToOne
+    private TipoProduto tipoProduto;
 }

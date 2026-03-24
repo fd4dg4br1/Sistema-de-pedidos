@@ -5,6 +5,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -23,4 +24,8 @@ public class Pagamento {
 
     @Column(nullable = false)
     private float preco;
+
+    @OneToMany(mappedBy = "tb_pedido")
+    @JoinColumn(name = "pagamento")
+    private List<Pedido>  pedido;
 }

@@ -20,4 +20,10 @@ public class PedidoProduto {
 
     @Column(nullable = false)
     private float valor_total;
+
+    @ManyToOne
+    private Pedido pedido;
+
+    @ManyToOne
+    private Produto produto;
 }
