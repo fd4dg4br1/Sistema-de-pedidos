@@ -1,0 +1,7 @@
+services:
+
+  app:
+    build: ./Aplicacao
+    container_name: fornecedor_java
+    ports:
+      - "8080:8080"
